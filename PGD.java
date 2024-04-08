@@ -65,19 +65,19 @@ public class PGD extends PhongTro {
         super.Nhap();
         System.out.print("Moi nhap so tien dieu hoa: ");
         while (!sc.hasNextDouble() && TienDieuHoa <= 0) {
-            System.out.print("Moi nhap so tien tro la mot so thuc:  ");
+            System.out.print("Moi nhap so tien dieu hoa la mot so thuc:  ");
             sc.next();
         }
         TienDieuHoa = sc.nextDouble();
         System.out.print("Moi nhap so tien ban cong: ");
         while (!sc.hasNextDouble() && TienBanCong <= 0) {
-            System.out.print("Moi nhap so tien tro la mot so thuc:  ");
+            System.out.print("Moi nhap so tien ban cong la mot so thuc:  ");
             sc.next();
         }
         TienBanCong = sc.nextDouble();
         System.out.print("Moi nhap so tien ve sinh: ");
         while (!sc.hasNextDouble() && TienVeSinh <= 0) {
-            System.out.print("Moi nhap so tien tro la mot so thuc:  ");
+            System.out.print("Moi nhap so tien ve sinh la mot so thuc:  ");
             sc.next();
         }
         TienVeSinh = sc.nextDouble();
